@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Alam Special" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Snax IT: Veg." />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Snax IT: Non Veg." />
+
+        <item
+            android:id="@+id/nav_burgers"
+            android:title="Burgers" />
+        <item
+            android:id="@+id/nav_pastas"
+            android:title="Italian Pastas" />
+        <item
+            android:id="@+id/nav_grilled_wraps"
+            android:title="Alam Grilled Wraps" />
+        <item
+            android:id="@+id/nav_sanwiches"
+            android:title="Grilled Sanwiches" />
+        <item
+            android:id="@+id/nav_noodles"
+            android:title="Noodles" />
+        <item
+            android:id="@+id/nav_combo_veg"
+            android:title="Combo: Veg." />
+        <item
+            android:id="@+id/nav_combo_non"
+            android:title="Combo: Non-Veg." />
+
+        <item
+            android:id="@+id/nav_milkshakes"
+            android:title="Milkshakes" />
+        <item
+            android:id="@+id/nav_mocktails"
+            android:title="Mocktails" />
+        <item
+            android:id="@+id/nav_beverages"
+            android:title="Beverages" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
